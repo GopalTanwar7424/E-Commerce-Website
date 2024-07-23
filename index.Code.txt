@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html Lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Apna Bazar.com </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poopins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+
+        <div class="header">
+
+        
+            <div class="container">
+                <div class="navbar">
+        
+                    <div class="logo">
+                        <a href="index.html"><img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/logo1.png" width="125px"></img></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <li><a href="cart.html">.</a><img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/card.jpg" width="30px" height="30px"></li>
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/menu.png" class="menu-icon" onclick="menutoggle()">
+                   </div>
+                   <div class="row">
+                    <div class="col-2">
+                        <h1>Give Your Shopping<br>A New Style</h1>
+                        <p>Whoever said money can't buy happiness<br>simply didn't know where to go shopping.
+                        </p>
+                        <a href="" class="btn">Explore Now &#8594;</a>
+                    </div>
+                    
+                    <div class="col-2">
+                        <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/logo.png.png"> 
+                    </div>
+                    
+                   </div>
+            </div>
+        </div>
+
+        <!----------featured categories--------->
+        <div class="categories">
+            <div class="small-container">
+                <h2 class="title">Medicine Porducts</h2>
+                
+                <div class="row">
+                    <div class="col-3">
+                        
+                        <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/product.1med.jpg.jpg">
+                        <h3><li><a href="productsdetails.html">Calcimax forte+ tablet 30’s</a></li></h3>
+                        
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹270.00 (MRP:-₹299)</p>
+                        
+                    </div>
+                    <div class="col-3">
+                        <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/product-3_1369_1.jpg">
+                        <h3><li><a href="productdetails40.html">Vitamin-C 500 Chewable Tablet 10's</a></li></h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o-half"></i>
+                        </div>
+                        <p>₹50.00 (MRP:-₹60)</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/combiflam-20tab.jpg">
+                        <h3><li><a href="productdetails2.html">Combiflam Tablet 20's</a></li></h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹46.00 (MRP:-₹59)</p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+        <!----------featured products--------->
+        <div class="small-container">
+            <h2 class="title">Food Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/paneer.jpg">
+                    <h3><li><a href="productdetails3.html">Panner Korma</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹245.00 (MRP:-₹265)</p>
+                </div>
+                <div class="col-4">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/food2.jpg">
+                    <h3><li><a href="productdetails4.html">Palak Panner</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹230.00 (MRP:-₹250)</p>
+                </div>
+                <div class="col-4">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/food3.jpg">
+                    <h3><li><a href="productdetails5.html">Naan</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹60.00 (MRP:-₹79)</p>
+                </div>
+            </div>
+        </div>
+        <!----------featured products--------->
+        <div class="small-container">
+            <h2 class="title">Non-Veg Food</h2>
+            <div class="row">
+                <div class="col-5">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/food4.jpg">
+                    <h3><li><a href="productdetails6.html">Mutton Biryani</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o-half"></i>
+                    </div>
+                    <p>₹350.00 (MRP:-₹400)</p>
+                </div>
+                <div class="col-5">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/food6.jpg">
+                    <h3><li><a href="productdetails41.html">Tandori Chicken</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                    </div>
+                    <p>₹280.00 (MRP:-₹300)</p>
+                </div>
+                <div class="col-5">
+                    <img src="C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/food7.jpg">
+                    <h3><li><a href="productdetail42.html">Rawas Biryani</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                    </div>
+                    <p>₹400.00 (MRP:-₹429)</p>
+                </div>
+            </div>
+            <!----------featured products--------->
+        <div class="small-container">
+            <h2 class="title">Fast Food</h2>
+            <div class="row">
+                <div class="col-6">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/food1.jpg">
+                    <h3><li><a href="productdetails7.html">Cheese Veg Grilled Sandwich</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹150.00 (MRP:-₹160)</p>
+                </div>
+                <div class="col-6">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/food9.jpg">
+                    <h3><li><a href="productdetails8.html">Cheese Pizza</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        
+                    </div>
+                    <p>₹199.00 (MRP:-₹229)</p>
+                </div>
+                <div class="col-6">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/Black-bean-burgers-ed37ced.jpg">
+                    <h3><li><a href="productdetails9.html">Veg Burger</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        
+                    </div>
+                    <p>₹79.00 (MRP:-₹89)</p>
+                </div>
+                <!----------featured products--------->
+        <div class="small-container">
+            <h2 class="title">Bervages</h2>
+            <div class="row">
+                <div class="col-7">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/foo1.png">
+                    <h3><li><a href="productdetails10.html">Pepsi 200ml</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>₹39.00 (MRP:-₹45)</p>
+                    
+                </div>
+                <div class="col-7">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/food10.png">
+                    <h3><li><a href="productdetails11.html">Coca Cola 500ml</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                    </div>
+                    <p>₹35.00 (MRP:-₹40)</p>
+                </div>
+                <div class="col-7">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/foodd1.jpg">
+                    <h3><li><a href="productdetails12.html">Slice 1L </a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                    </div>
+                    <p>₹40.00 (MRP:-₹50)</p>
+                </div>
+                <!----------featured products--------->
+        <div class="small-container">
+            <h2 class="title">Electronic Products</h2>
+            <div class="row">
+                <div class="col-8">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/oneplus.1.jpg">
+                    <h3><li><a href="productdetails13.html">Oneplus Nord 2 5G</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹29,000.00 (MRP:-₹29,999)</p>
+                    
+                </div>
+                <div class="col-8">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/iphone14-1.jpg">
+                    <h3><li><a href="productdetails14.html">iPhone 14 Pro</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        
+                        
+                    </div>
+                    <p>₹1,32,900.00 (MRP:-₹1,32,999)</p>
+                </div>
+                <div class="col-8">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/readmi%20note%2012%205G-1.jpg">
+                    <h3><li><a href="productdetails15.html">Redmi Nord 12</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        
+                        
+                    </div>
+                    <p>₹17,900.00 (MRP:-₹17,999)</p>
+                </div>
+             
+            <div class="row">
+                <div class="col-9">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/hp.1.jpg">
+                    <h3><li><a href="productdetails16.html">HP Pavilion</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹63,000.00 (MRP:-₹63,499)</p>
+                    
+                </div>
+                <div class="col-9">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/dell.1.jpg">
+                    <h3><li><a href="productdetails17.html">Dell New G15</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                    </div>
+                    <p>₹87,999.00 (MRP:-₹88,390)</p>
+                </div>
+                <div class="col-9">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/asus.1.jpg">
+                    <h3><li><a href="productdetails18.html">Asus Rog Strix</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        
+                        
+                    </div>
+                    <p>₹87,000.00 (MRP:-₹87,120)</p>
+                </div>
+                
+            <div class="row">
+                <div class="col-10">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/boat.1.jpg">
+                    <h3><li><a href="productdetails19.html">boAt Rockers 450</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>₹1,399.00 (MRP:-₹1,499)</p>
+                    
+                </div>
+                <div class="col-10">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/boult.1.jpg">
+                    <h3><li><a href="productdetails20.html">Boult Audio Z40</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                    </div>
+                    <p>₹1,399.00 (MRP:-₹1,498)</p>
+                </div>
+                <div class="col-10">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/hammer.1.jpg">
+                    <h3><li><a href="productdetails21.html">HAMMER Stings</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        
+                        
+                    </div>
+                    <p>₹799.00 (MRP:-₹899)</p>
+                </div>
+                <div class="row">
+                    <div class="col-11">
+                        <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/WhatsApp%20Image%202023-03-07%20at%2010.23.57.jpg">
+                        <h3><li><a href="productdetails22.html">Haier 190 L4 star Single Door Refrigerator</a></li></h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <p>₹13,799.00 (MRP:-₹14,799)</p>
+                        
+                    </div>
+                    <div class="col-11">
+                        <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/WhatsApp%20Image%202023-03-07%20at%2010.25.50.jpg">
+                        <h3><li><a href="productdetails23.html">Samsung double door Refrigerator</a></li></h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                            
+                        </div>
+                        <p>₹24,000.00 (MRP:-25000₹)</p>
+                    </div>
+                    <div class="col-11">
+                        <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/WhatsApp%20Image%202023-03-07%20at%2010.25.01.jpg">
+                        <h3><li><a href="productdetails24.html">Whirlpool 240 L Frost Multi-Door Refrigerator</a></li></h3>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            
+                            
+                        </div>
+                        <p>₹24,500.00 (MRP:-₹25,790)</p>
+                    </div>
+                <!----------featured products--------->
+        <div class="small-container">
+            <h2 class="title">Crossword</h2>
+            <div class="row">
+                <div class="col-12">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/book3.jpg">
+                    <h3><li><a href="productdetails25.html">Energize Your Mind</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹153.00 (MRP:-₹183)</p>
+                    
+                </div>
+                <div class="col-12">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/cl.jpg">
+                    <h3><li><a href="productdetails26.html">Closer to Love</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                    </div>
+                    <p>₹350.00 (MRP:-₹499)</p>
+                </div>
+                <div class="col-12">
+                    <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/thepowerof.jpg">
+                    <h3><li><a href="productdetails27.html">The Power of Your Subconscious Mind</a></li></h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        
+                        
+                    </div>
+                    <p>₹99.00 (MRP:-₹115)</p>
+                </div>
+
+                <!----------featured products--------->
+
+                <div class="small-container">
+    
+                    <h2 class="title">Clothes for Mens </h2>
+    
+                    <div class="row">
+        
+                        <div class="col-13">
+           
+                            <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0046.jpg">
+            
+                            <h3><li><a href="productdetails28.html">Calvin Klein Shirt</a></li></h3>
+            
+                            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+           
+            </div>
+            <p>₹5,000.00 (MRP:-₹5,399)</p>
+            
+        </div>
+        <div class="col-13">
+            <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0012.jpg">
+            <h3><li><a href="productdetails29.html">Wrogn shirt</a></li></h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                
+                
+            </div>
+            <p>₹1,399.00 (MRP:-₹1,429)</p>
+        </div>
+        <div class="col-13">
+            <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0039.jpg">
+            <h3><li><a href="productdetails30.html">Rare Rabbit Shirt</a></li></h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                
+                
+            </div>
+            <p>₹3,000.00 (MRP:-₹3,499)</p>
+        </div>
+     
+    <div class="row">
+        <div class="col-13">
+            <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0033.jpg">
+            <h3><li><a href="productdetails32.html">H&M Jeans</a></li></h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹1,099.00 (MRP:-₹1,799)</p>
+            
+        </div>
+        <div class="col-13">
+            <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0043.jpg">
+            <h3><li><a href="productdetails31.html">Levi's Shirt</a></li></h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                
+                
+            </div>
+            <p>₹1,500.00 (MRP:-₹1,919)</p>
+        </div>
+        <div class="col-13">
+            <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0032.jpg">
+            <h3><li><a href="productdetails33.html">Being Human jeans</a></li></h3>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                
+                
+            </div>
+            <p>₹3,200.00 (MRP:-₹3,299)</p>
+        </div>
+        
+    <!----------featured products--------->
+
+    <div class="small-container">
+    
+        <h2 class="title">Clothes for Women </h2>
+
+        <div class="row">
+
+            <div class="col-14">
+
+                <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0042.jpg">
+
+                <h3><li><a href="productdetails34.html">Lable Aishwaryrika</a></li></h3>
+
+                <div class="rating">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-o"></i>
+
+</div>
+<p>₹5,000.00 (MRP:-₹5,899)</p>
+
+</div>
+<div class="col-14">
+<img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0051.jpg">
+<h3><li><a href="productdetails35.html">Kimayra</a></li></h3>
+<div class="rating">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    
+    
+</div>
+<p>₹1,099.00 (MRP:-₹1,599)</p>
+</div>
+<div class="col-14">
+<img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0024.jpg">
+<h3><li><a href="productdetails36.html">Boba</a></li></h3>
+<div class="rating">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-o"></i>
+    
+    
+</div>
+<p>₹2,000.00 (MRP:-₹2,279)</p>
+</div>
+
+<div class="row">
+<div class="col-14">
+<img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0055.jpg">
+<h3><li><a href="productdeatls37.html">Anouk</a></li></h3>
+<div class="rating">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-o"></i>
+</div>
+<p>₹3,000.00 (MRP:-₹3,909)</p>
+
+</div>
+<div class="col-14">
+<img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0048.jpg">
+<h3><li><a href="productdetaills38.html">All About You</a></li></h3>
+<div class="rating">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    
+    
+</div>
+<p>₹1,099.00 (MRP:-₹1,699)</p>
+</div>
+<div class="col-14">
+<img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/IMG-20230311-WA0050.jpg">
+<h3><li><a href="productdetails39.html">Swatantra</a></li></h3>
+<div class="rating">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-o"></i>
+    
+    
+</div>
+<p>₹3,000.00 (MRP:-₹3,145)</p>
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-------------brands------------>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-20">
+                <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/Godrej_Logo.svg.png">
+            </div>
+            <div class="col-20">
+                <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/png-clipart-oppo-logo-phone-identity.png">
+            </div>
+            <div class="col-20">
+                <img src="file:///C:/Users/gopal/OneDrive/Desktop/apna%20bazar/images/logo.coca-cola.jpg">
+            </div>
+
+            
+        </div>
+    </div>
+    
+
+</div>
+<!---------------footer-------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                
+                <h2>       Thank you for visting.......</h1>
+    
+<!---------------js for toggle menu--------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    
+        
+    }
+</script>
+
+
+        </body>
+        </html>
+
+               
